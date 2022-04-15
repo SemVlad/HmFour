@@ -4,7 +4,7 @@ public class TaskFour {
     public static void main(String[] args) {
 
         // Переполнение мантиссы числа
-        byte b = -128;
+        byte b = 127;
         b++;
         System.out.println(b);
     }
